@@ -9,7 +9,7 @@ body {
 }
 /* common styles for button */
 button#copy{
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   font: inherit;
   font-size: 18px;
   line-height: 2em;
@@ -19,7 +19,16 @@ button#copy{
   background: #555;
   padding: 0 8px;
   color: #fff;
-  display: block;
+  display: block; */
+      height: 40px;
+    line-height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #ffa420;
+    color: white;
+    cursor: pointer;
 }
 /* cursor/size for within iframe */
 button#copy {
@@ -36,7 +45,7 @@ button#copy:focus {
   </style>
 </head>
 <body>
-<button id="copy">Copy</button>
+<button id="copy">Копировать промокод</button>
 <input type="text" id="_i" hidden />
 <script>
 /*
