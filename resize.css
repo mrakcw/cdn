@@ -1,0 +1,82 @@
+.rate-casino em{display:none;}
+@media screen and (min-width:0px) and (max-width:1100px){
+  .hidemobile{display:none!important;}
+  .shovmobile{display:block!important;}
+  .ccmob{margin: 0px 10px;}
+  .mobibtn{width:50%;text-align:center;float:left;margin:0 auto;height:40px;box-shadow:none;font-weight:bold;color:#fff;font-size:18px;line-height:40px;}
+  .uk-breadcrumb{font-size:14px;}
+  .uk-breadcrumb>li:nth-child(n+2):before{margin:0 3px;}
+  .gamemenu{padding-top:90px;}
+  .main-bunner span{margin-left:10px;}
+  .obvodka-block{width:calc(100% - 30px);}
+  .gameblock{margin:0px 5px;}
+  #content .simplebar-content{margin:0 10px;}
+  #slot-game li{width:calc(50% - 1px);height:171px;margin-top:0;}
+  .footermenu{width:100%;margin-bottom:10px;}
+  #footer{height:375px;text-align:center;}
+  .gameoptions{width:100%;margin:0;}
+  .game-option{height:240px;}
+  .table-game-row{height:22px;}
+  .slide-image{width:95%;margin-left:2.5%;}
+  .symbol-game{width:calc(33.3% - 12px);margin-left:6px;margin-bottom:10px;}
+  .symbol-game .mnog-itog,.symbol-game .mnog{width:50%;padding:0;margin:0;border-radius:0;}
+  .symbol-game img{width:100%;}
+  .symbol-game p{text-align:center;margin-top:10px;height:18px;overflow:hidden;}
+  .title{font-size:16px;line-height:20px;}
+  .game-description h1{font-size:18px;}
+  #gameThumbnail{width:100%;}
+  .buttom-gms{width:100%;margin-top:31%;}
+  #gameThumbnail img{padding:5px 0;}
+  .casisimg{width:100%;}
+  .casimg{width:60%;margin:0 auto;}
+  .maincastable,.but-bonus2,.cas-but{width:100%;margin-left:0;}
+  .but-bonus2{margin-top:5px;width:100%;margin:0 auto;}
+  .cas-but{margin-bottom:5px;margin:0 auto;margin-top:5px;}
+  .infosubm{margin-top:5px;width:calc(95% - 6px)!important;}
+  #besdep .infosubm{width:95%!important;}
+  .otziv{width:95%;margin:0 auto;margin-top:5px;}
+  .logotas{text-align:center;margin:-5px 0 5px 0;}
+  .fip-fence{width:60%;margin:0 auto}
+  #onlcas .uk-breadcrumb,#besdep .uk-breadcrumb,.category .uk-breadcrumb{margin-top:10px;}
+  .logocasino,.butbl{width:100%;}
+  .head-cas-block{height:500px;}
+  .progrescas{width:35%;margin:0;}
+  .ocenka{float:right;margin:0;width:60%;}
+  .as{display: none;}
+  #singlecas .uk-breadcrumb{margin:15px 0;}
+  #singlecas h1{font-size:20px;}
+  #singlecas h2{font-size:18px;}
+  .head-cas-l{font-size:16px!important;}
+  #da .notice{width:90%;}
+  .vendor,.flag{margin-bottom:2px!important;margin-top:2px!important;}
+  .flag:nth-child(1){margin-left:2px!important;}
+  .bonusimg{width:100%;}
+  .bonusimg img,.bonusimg .fip-fence{max-width:342px;display:block;margin:0 auto;}
+  .bonustable{width:96%;margin-left:2%;display:block;}
+  .but-bonus{margin-top:10px;width:100%;}
+  .infobutton,.infosubm{width:95%;}
+  .infobutton{margin-bottom:3px;}
+  .tarifimg{padding:5px 0;width:100%;height:auto;}
+  .fcom,.ffield{width:100%!important;}
+  #submit{width:100%!important;margin-right:0!important;}
+  .sitemap-colum{width:50%;}
+  .sitemap-list li{margin-left:10px;}
+  #back-sup .logo{width:90%;padding-top:0;}
+  #back-sup p:nth-child(2){display:none;}
+  #back-sup{height:200px!important;background-size:100%;padding-top:110px}
+  .back-chemp .logosup{width:90%}
+  .back-chemp p{line-height:30px}
+  .back-chemp{margin-top:-80px;}
+  .uk-width-1-2{width:100%;}
+}
+@media screen and (min-width:768px) and (max-width:1158px){
+  .but-bonus2{margin:37px 5px 0px 0px;}
+  .rate-casino{display:none;}
+  #submit{width:30%!important}
+  #respond input{width:75%}
+}
+@media screen and (min-width:768px) and (max-width:4000px){
+   .shovdesc{display:block;}
+   .hidesctop{display:none;}
+   .st{display: none;}
+}
