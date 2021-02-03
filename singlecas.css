@@ -20,7 +20,6 @@ h2{color:#444;font-size:24px;line-height:30px;}
 .progrescas span:first-child{margin:0 0 5px 0;}
 .ocenka{float:left;width:26%;margin-left:2%;font-size:16px;}
 .ocenka>ul{list-style-type:none;margin:0;padding:0;}
-.ocenka ul li,.butbl ul li{margin-bottom:10px;}
 .linker{cursor:pointer;text-decoration:underline;font-weight:bold;color:#444;}
 .butbl{width:31%;float:left;}
 .casinfo{text-align:center;font-size:16px;font-weight:bold;text-transform:uppercase;color:#982134;}
@@ -31,7 +30,7 @@ h2{color:#444;font-size:24px;line-height:30px;}
 #big-table-casino table tr td:nth-child(1){font-weight:bold;color:#6c6c7a;font-size:15px;vertical-align:middle;}
 #big-table-casino table td,#big-table-casino table th{padding:8px 25px 8px 0;border-bottom:1px solid #ddd;min-width:80px;}
 #big-table-casino table{border-collapse:collapse;border-spacing:0;width:100%;margin:15px 0 15px 0;}
-i.icon-chr{margin-top:-3px;margin-right:10px;display:inline-block;width:19px;height:19px;background:url(http://doc.sumy.ua/111/wp-content/themes/images/icon/icons-characteristics.png) no-repeat;vertical-align:middle;}
+i.icon-chr{margin-top:-3px;margin-right:10px;display:inline-block;width:19px;height:19px;background:url(https://mrakcw.github.io/cdn/img/icon/icons-characteristics.png) no-repeat;vertical-align:middle;}
 i.chr1{background-position:0 0;}
 i.chr2{background-position:-19px 0;}
 i.chr3{background-position:-38px 0;}
@@ -50,7 +49,7 @@ i.chr17{background-position:-304px 0;}
 .flag{float:left;margin-left:3px!important;padding:1px!important;border-radius:4px;border:1px solid #bdbcbc;}
 .flag:nth-child(1){margin-left:0!important;}
 #big-table-casino .vendor{background:#edeef0!important;border-radius:4px;border:1px solid #bdbcbc;margin-left:3px;}
-#da{background:rgba(0,0,0,0) url(http://doc.sumy.ua/111/wp-content/themes/images/grb.png) repeat scroll 0 0;text-align:center;padding:10px;margin-bottom:20px;}
+#da{background:rgba(0,0,0,0) url(https://mrakcw.github.io/cdn/img/grb.png) repeat scroll 0 0;text-align:center;padding:10px;margin-bottom:20px;}
 #da .head-cas-l{font-size:25px;text-transform:uppercase;line-height:40px;font-weight:bold;}
 #da .notice{background:#fff9c4 none repeat scroll 0 0;border:1px dashed #ddd;color:#0069d0;display:block;margin:0 auto;padding:10px;width:60%;}
 #da .butplaycas{width:210px;}
