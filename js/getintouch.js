@@ -7,7 +7,7 @@ wrapper.innerHTML = `
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://mrakcw.github.io/cdn/css/getintouch.css">
-<div class="contact-wrapper" id="mrakcw" style="display: none">
+<div class="contact-wrapper" id="mrakcw">
     <div class="contact-panel">
         <div class="contact-panel__header">
           <a href="https://nick-name.ru/nickname/mrakcw/" target="_blank" style="color: #eee; font-family: 'Pacifico', cursive;font-size: 21px;">MrakCw Design</a>
