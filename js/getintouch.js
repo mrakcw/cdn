@@ -12,12 +12,12 @@ wrapper.innerHTML = `
         </div>
         <button class="contact-close"><i class="fa fa-times"></i></button>
         <ul>
-          <li><a href="https://t.me/mrakcw" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a></li>
-          <li><a href="https://vk.com/mrakcw" target="_blank" title="VK"><i class="fa fa-vk"></i></a></li>
-          <li><a href="https://fb.com/mrakcw" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/mrakcw" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://github.com/mrakcw" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></li>
-          <li><a href="https://steamcommunity.com/id/mrakcw/" target="_blank" title="Steam"><i class="fa fa-steam"></i></a></li>
+          <li><a rel="nofollow" href="https://t.me/mrakcw" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a></li>
+          <li><a rel="nofollow" href="https://vk.com/mrakcw" target="_blank" title="VK"><i class="fa fa-vk"></i></a></li>
+          <li><a rel="nofollow" href="https://fb.com/mrakcw" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a rel="nofollow" href="https://www.linkedin.com/in/mrakcw" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          <li><a rel="nofollow" href="https://github.com/mrakcw" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></li>
+          <li><a rel="nofollow" href="https://steamcommunity.com/id/mrakcw/" target="_blank" title="Steam"><i class="fa fa-steam"></i></a></li>
         </ul>
     </div>
 </div>
