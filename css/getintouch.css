@@ -1,140 +1,18 @@
-button .contact-button,
-.contact-close {
-	padding: 0;
-	border: none;
-	outline: 0;
-	cursor: pointer;
-	font-size: 16px;
-	min-width: 15% !important;
-	max-width: 30% !important;
-	background-color: transparent !important;
-}
-button .contact-button:focus {
-	outline: none;
-}
-a {
-	color: #eeeeee;
-	text-decoration: none;
-	margin: 0;
-}
-.contact-wrapper {
-	z-index: 1;
-	position: fixed;
-	right: -4.5px;
-	bottom: 80px;
-	transform: translateX(100%);
-	-webkit-transition: transform 0.4s ease-in-out;
-	transition: transform 0.4s ease-in-out;
-}
-.contact-wrapper.contact-wrapper--open {
-	transform: translateX(-10px);
-}
-.contact-panel {
-	background-color: #fff;
-	border: 1px solid #101845;
-	max-width: 390px;
-	border-radius: 4.8px;
-	width: 100%;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	top: -1px;
-}
-.contact-panel ul {
-	list-style-type: none;
-	padding: 15px 0;
-	margin: 0;
-	text-align: center;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-}
-.contact-panel ul li {
-	margin: 0 5px;
-	display: inline-flex;
-	border: solid 2px rgba(170, 170, 170, 0.25);
-	border-radius: 50%;
-}
-.contact-panel ul li:hover {
-	border: solid 2px rgba(120, 120, 120, 1);
-}
-.contact-panel ul li a {
-	border-radius: 50%;
-	margin: 0;
-	color: #101845;
-	height: 50px;
-	width: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	line-height: 50px;
-	text-decoration: none;
-	box-shadow: 0 1px 2px 1px rgba(170, 170, 170, 0.2);
-	-webkit-transition: box-shadow 0.4s ease-in-out;
-	transition: box-shadow 0.4s;
-	opacity: 0.85;
-}
-.contact-panel ul li a:hover {
-	box-shadow: 0 2px 5px 1px rgba(170, 170, 170, 0.6);
-	opacity: 1;
-}
-.contact-panel ul li a i {
-	font-size: 31px;
-	line-height: 32px;
-}
-#mrakcw .fa {
-	max-height: 32px;
-	top: 0;
-}
-.contact-panel__header {
-	position: relative;
-	background-color: #101845;
-	color: #fff;
-	font-size: 21px;
-	line-height: 16px;
-	padding: 15px;
-	text-align: center;
-	margin: 0;
-}
-.contact-close {
-	border: 0;
-	color: #ccc;
-	position: absolute;
-	top: 0 !important;
-	right: 0 !important;
-	line-height: 48px !important;
-	padding: 0 !important;
-	margin: 0 !important;
-	width: 24px !important;
-}
-.contact-close:focus {
-	outline: none;
-}
-.contact-button {
-	border: 0;
-	background-color: #101845 !important;
-	color: #fff;
-	cursor: pointer;
-	padding: 8px 16px;
-	-webkit-transition: background-color 0.4s ease-in-out;
-	transition: background-color 0.4s ease-in-out;
-	font-size: 16px;
-	line-height: 20px;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	border-radius: 4px;
-	font-family: "Pacifico", cursive;
-	opacity: 0.65;
-}
-.contact-button:hover {
-	background-color: #212b63;
-	opacity: 1;
-	-webkit-transition: background-color 1.4s ease-in-out;
-	transition: background-color 1.4s ease-in-out;
-}
-#mrakcw {
-	opacity: 1;
-}
+button .contact-button, .contact-close{ padding: 0; border: none; outline: 0; cursor: pointer; font-size: 16px; min-width: 15% !important; max-width: 30% !important; background-color: transparent !important} 
+button .contact-button:focus{ outline: none} 
+a{ color: #eeeeee; text-decoration: none; margin: 0} 
+.contact-wrapper{ z-index: 1; position: fixed; right: -4.5px; bottom: 80px; transform: translateX(100%); -webkit-transition: transform 0.4s ease-in-out; transition: transform 0.4s ease-in-out} 
+.contact-wrapper.contact-wrapper--open{ transform: translateX(-10px)} 
+.contact-panel{ background-color: #fff; border: 1px solid #101845; max-width: 390px; border-radius: 4.8px; width: 100%; position: relative; display: flex; flex-direction: column; justify-content: space-between; top: -1px} 
+.contact-panel ul{ list-style-type: none; padding: 15px 0; margin: 0; text-align: center; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between} 
+.contact-panel ul li{ margin: 0 5px; display: inline-flex; border: solid 2px rgba(170, 170, 170, 0.25); border-radius: 50%}
+.contact-panel ul li:hover{ border: solid 2px rgba(120, 120, 120, 1)} 
+.contact-panel ul li a{ border-radius: 50%; margin: 0; color: #101845; height: 50px; width: 50px; display: flex; justify-content: center; align-items: center; line-height: 50px; text-decoration: none; box-shadow: 0 1px 2px 1px rgba(170, 170, 170, 0.2); -webkit-transition: box-shadow 0.4s ease-in-out; transition: box-shadow 0.4s; opacity: 0.85} 
+.contact-panel ul li a:hover{ box-shadow: 0 2px 5px 1px rgba(170, 170, 170, 0.6); opacity: 1} 
+.contact-panel ul li a i{ font-size: 31px; line-height: 32px} 
+#mrakcw .fa{ max-height: 32px; top: 0} 
+.contact-panel__header{ position: relative; background-color: #101845; color: #fff; font-size: 21px; line-height: 16px; padding: 15px; text-align: center; margin: 0} 
+.contact-close{ border: 0; color: #ccc; position: absolute; top: 0 !important; right: 0 !important; line-height: 48px !important; padding: 0 !important; margin: 0 !important; width: 24px !important} 
+.contact-close:focus{ outline: none} 
+.contact-button{ border: 0; background-color: #101845 !important; color: #fff; cursor: pointer; padding: 8px 16px; -webkit-transition: background-color 0.4s ease-in-out; transition: background-color 0.4s ease-in-out; font-size: 16px; line-height: 20px; position: fixed; bottom: 10px; right: 10px; border-radius: 4px; font-family: "Pacifico", cursive; opacity: 0.65} 
+.contact-button:hover{ background-color: #212b63; opacity: 1; -webkit-transition: background-color 1.4s ease-in-out; transition: background-color 1.4s ease-in-out}
