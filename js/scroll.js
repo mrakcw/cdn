@@ -50,4 +50,29 @@ $(document).ready(function () {
       }
     }
   });
+
+  // scroll smooth
+  function scrollNav() {
+				$('.toc-list-contents a').click(function(){
+					$('html, body').stop().animate({
+						scrollTop: $($(this).attr('href')).offset().top - 70
+					}, 700);
+					return false;
+				});
+			}
+			scrollNav();
+			
+			 $("span a").on('click', function(event) {
+		    if (this.hash !== "") {
+	      event.preventDefault();
+
+	      var hash = this.hash;
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top - 60
+  	    }, 800, function(){
+
+ 			      window.location.hash = hash;
+ 			    });
+ 			  } 
+ 			});
 });
