@@ -1,0 +1,23 @@
+#faq .transition,#faq ul li i:before,#faq ul li i:after,#faq p{transition:all .25s ease-in-out;}
+#faq .flipIn,#faq ul li,#faq h2{animation:flipdown .5s ease both;}
+#faq h2{font-size:36px;line-height:42px;letter-spacing:3px;font-weight:100;}
+#faq .no-select,#faq h3{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+#faq h3{font-size:26px;line-height:34px;font-weight:300;letter-spacing:1px;display:block;margin:0;cursor:pointer;}
+#faq ul li p.answ{color:rgba(48,69,92,.8);font-size:17px;line-height:26px;letter-spacing:1px;position:relative;overflow:hidden;opacity:1;transform:translate(0,0);margin-top:25px;z-index:2;}
+#faq ul{list-style:none;perspective:900;padding:0;margin:0;}
+#faq ul li{position:relative;padding:0;margin:0;padding-bottom:10px;padding-top:0px;border-top:1px dotted #dce7eb;}
+#faq ul li::marker{content: " ";}
+#faq ul li:nth-of-type(1){animation-delay:.5s;}
+#faq ul li:nth-of-type(2){animation-delay:.75s;}
+#faq ul li:nth-of-type(3){animation-delay:1s;}
+#faq ul li:last-of-type{padding-bottom:0;}
+#faq ul li i{position:absolute;transform:translate(-6px,0);margin-top: 40px;right:20px;}
+#faq ul li i:before,#faq ul li i:after{content:"";position:absolute;background-color:#ff6873;width:3px;height:9px;}
+#faq ul li i:before{transform:translate(-2px,0) rotate(45deg);}
+#faq ul li i:after{transform:translate(2px,0) rotate(-45deg);}
+#faq ul li input[type=checkbox]{position:absolute;cursor:pointer;width:100%;height:100%;z-index:1;opacity:0;margin:0;}
+#faq ul li input[type=checkbox]:checked ~ p{margin-top:0;max-height:0;opacity:0;transform:translate(0,50%);}
+#faq ul li input[type=checkbox]:checked ~ i:before{transform:translate(2px,0) rotate(45deg);}
+#faq ul li input[type=checkbox]:checked ~ i:after{transform:translate(-2px,0) rotate(-45deg);}
+@keyframes flipdown{0%{opacity:0;transform-origin:top center;transform:rotateX(-90deg)}5%{opacity:1}80%{transform:rotateX(8deg)}83%{transform:rotateX(6deg)}92%{transform:rotateX(-3deg)}100%{transform-origin:top center;transform:rotateX(0deg)}}
+.counter-hierarchy{ min-width: 100%;}
