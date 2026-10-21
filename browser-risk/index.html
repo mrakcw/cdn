@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex">
+  <title>Browser Risk Assessment</title>
+  <link rel="stylesheet" href="style.css">
+  <!--SERVER_HEADERS-->
+</head>
+<body>
+  <header class="page-header">
+    <h1>What your browser tells the server</h1>
+    <p class="subtitle">The server never sees a person. It sees these signals and computes a risk score.</p>
+  </header>
+
+  <section class="controls" aria-label="Controls">
+    <label class="field">
+      <span>Environment</span>
+      <input id="env" type="text" maxlength="40" placeholder="chrome / playwright" autocomplete="off">
+    </label>
+    <div class="buttons">
+      <button id="rerun" type="button">Run again</button>
+      <button id="export" type="button">Export JSON</button>
+      <button id="copy" type="button">Copy report</button>
+      <button id="save" type="button" hidden>Save to server</button>
+    </div>
+    <p class="meta"><span id="measured">Measuring…</span> <span id="status" role="status" aria-live="polite"></span></p>
+  </section>
+
+  <section class="summary" aria-label="Overall">
+    <div class="score-card" id="overall-card">
+      <h2>OVERALL</h2>
+      <p class="score" id="overall-score">—</p>
+      <p class="level" id="overall-level"></p>
+      <p class="note" id="overall-method"></p>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="server-title">
+    <div class="panel-head">
+      <h2 id="server-title">SERVER-SIDE (HTTP HEADERS)</h2>
+      <div class="score-card compact" id="server-card">
+        <p class="score" id="server-score">—</p>
+        <p class="level" id="server-level"></p>
+      </div>
+    </div>
+    <p class="note" id="server-source"></p>
+    <div class="table-wrap"><table class="kv" id="server-table" aria-label="HTTP headers"></table></div>
+    <h3>Rules</h3>
+    <ul class="rules" id="server-rules"></ul>
+  </section>
+
+  <section class="panel" aria-labelledby="client-title">
+    <div class="panel-head">
+      <h2 id="client-title">CLIENT-SIDE (JAVASCRIPT SIGNALS)</h2>
+      <div class="score-card compact" id="client-card">
+        <p class="score" id="client-score">—</p>
+        <p class="level" id="client-level"></p>
+      </div>
+    </div>
+    <h3>Rules</h3>
+    <ul class="rules" id="client-rules"></ul>
+    <h3>Collected parameters</h3>
+    <div class="table-wrap"><table class="kv" id="client-table" aria-label="JavaScript signals"></table></div>
+    <div id="errors-block" hidden>
+      <h3>Collection errors</h3>
+      <ul class="rules errors" id="errors"></ul>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="compare-title">
+    <h2 id="compare-title">COMPARE TWO REPORTS</h2>
+    <p class="note">Load a report from regular Chrome as A and from Chromium under Playwright as B. Nothing is uploaded: files are read locally.</p>
+    <div class="compare-inputs">
+      <label class="field"><span>Report A</span><input id="file-a" type="file" accept="application/json,.json"></label>
+      <label class="field"><span>Report B</span><input id="file-b" type="file" accept="application/json,.json"></label>
+      <div class="buttons">
+        <button id="use-current-a" type="button">Current → A</button>
+        <button id="use-current-b" type="button">Current → B</button>
+        <button id="compare" type="button">Compare</button>
+      </div>
+    </div>
+    <div id="compare-result"></div>
+  </section>
+
+  <footer class="page-footer">
+    <p>Browser Risk Assessment · no data is sent anywhere by default · scores are heuristics, not detection probabilities.</p>
+  </footer>
+
+  <script src="browser-risk.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
